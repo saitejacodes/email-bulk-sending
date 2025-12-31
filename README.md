@@ -110,4 +110,4 @@ emails
 
 ## License
 
-ISC
+MIT
