@@ -108,20 +108,6 @@ emails
 └── createdAt (Date, auto-generated)
 ```
 
-## Interview Summary
-
-**Problem:** Send bulk emails without blocking the API
-
-**Solution:**
-
-- MongoDB stores emails with PENDING status
-- Worker runs independently every 5 seconds
-- Processes in batches of 50
-- Updates status to SENT after sending
-
-**Resume Line:**
-Built an asynchronous bulk email sending system using Node.js and MongoDB to send emails to thousands of users using batch processing.
-
 ## License
 
 ISC
